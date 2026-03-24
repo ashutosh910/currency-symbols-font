@@ -4,11 +4,11 @@ Custom icon font for the new **UAE Dirham** and **Saudi Riyal** currency symbols
 
 ## Glyph Mapping
 
-| Symbol     | SVG Source     | Unicode (PUA) | HTML Entity  | JS Escape  |
-|------------|----------------|---------------|--------------|------------|
-| Dirham (1) | `dirham_1.svg` | U+E900        | `&#xE900;`   | `\uE900`   |
-| Riyal      | `riyal.svg`    | U+E901        | `&#xE901;`   | `\uE901`   |
-| Dirham (2) | `dirham_2.svg` | U+E902        | `&#xE902;`   | `\uE902`   |
+| Symbol              | SVG Source     | Unicode (PUA) | HTML Entity  | JS Escape  |
+|---------------------|----------------|---------------|--------------|------------|
+| Dirham              | `dirham_1.svg` | U+E900        | `&#xE900;`   | `\uE900`   |
+| Riyal               | `riyal.svg`    | U+E901        | `&#xE901;`   | `\uE901`   |
+| Dirham (sans-serif) | `dirham_2.svg` | U+E902        | `&#xE902;`   | `\uE902`   |
 
 All codepoints are in the Unicode [Private Use Area (PUA)](https://en.wikipedia.org/wiki/Private_Use_Areas) so they won't conflict with standard characters.
 
