@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    @font-face {
+      font-family: 'CurrencySymbols';
+      src: url('./fonts/CurrencySymbols.woff2') format('woff2'),
+        url('./fonts/CurrencySymbols.woff') format('woff'),
+        url('./fonts/CurrencySymbols.ttf') format('truetype');
+    }
+
+    .currency {
+      font-family: 'CurrencySymbols';
+    }
+
+    .border{
+      border: 1px solid #ccc;
+    }
+
+    body {
+      font-family: sans-serif;
+      padding: 40px;
+    }
+
+    .demo {
+      font-size: 48px;
+      margin: 20px 0;
+    }
+
+    .label {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .align-test {
+      display: inline-block;
+      position: relative;
+      margin: 10px 20px;
+      padding: 0 4px;
+      border-top: 2px solid red;
+      border-bottom: 2px solid blue;
+      line-height: 1;
+      background: repeating-linear-gradient(
+        transparent,
+        transparent calc(50% - 1px),
+        #0a0 calc(50% - 1px),
+        #0a0 calc(50% + 1px),
+        transparent calc(50% + 1px)
+      );
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Currency Font Test</h2>
+  <div>
+    <div class="label">U+E900 — Dirham 1</div>
+    <div class="demo"><span class="currency">&#xE900;</span></div>
+  </div>
+  <div>
+    <div class="label">U+E901 — Riyal</div>
+    <div class="demo"><span class="currency">&#xE901;</span></div>
+  </div>
+  <div>
+    <div class="label">U+E902 — Dirham 2</div>
+    <div class="demo"><span class="currency">&#xE902;</span></div>
+  </div>
+  <h3>Alignment Test (48px)</h3>
+  <div class="align-test" style="font-size:48px;">
+    <span>100</span><span class="currency">&#xE900;</span>
+  </div>
+  <div class="align-test" style="font-size:48px;">
+    <span>100</span><span class="currency">&#xE901;</span>
+  </div>
+  <div class="align-test" style="font-size:48px;">
+    <span>100</span><span class="currency">&#xE902;</span>
+  </div>
+
+  <h3>Alignment Test (24px)</h3>
+  <div class="align-test" style="font-size:24px;">
+    <span>100</span><span class="currency">&#xE900;</span>
+  </div>
+  <div class="align-test" style="font-size:24px;">
+    <span>100</span><span class="currency">&#xE901;</span>
+  </div>
+  <div class="align-test" style="font-size:24px;">
+    <span>100</span><span class="currency">&#xE902;</span>
+  </div>
+</body>
+
+</html>

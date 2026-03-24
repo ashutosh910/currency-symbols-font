@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+font_test_screenshot.png
+font_test_v2.png
+font_test_v3.png
+
+# Claude / Playwright
+.claude/
+.playwright-mcp/
